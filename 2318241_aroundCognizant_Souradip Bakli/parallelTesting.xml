@@ -1,0 +1,29 @@
+<?xml version ="1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name = "MasterSuite" thread-count = "2" parallel="tests">
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager"></listener>
+	</listeners>
+	
+	<test name = "chromeTest">
+		<parameter name = "Browser" value = "Chrome"/>
+		
+		<classes>
+			<class name = "testBase.BaseClass"/>
+			<class name="testCases.AroundCognizant"/>
+			
+		</classes>
+		
+	</test>
+	<test name = "edgeTest">
+		<parameter name = "Browser" value = "Edge"/>
+		
+		<classes>
+			<class name = "testBase.BaseClass"/>
+			<class name="testCases.AroundCognizant"/>
+			
+		</classes>
+		
+	</test>
+</suite>

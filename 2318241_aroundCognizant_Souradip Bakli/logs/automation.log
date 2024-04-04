@@ -1,0 +1,28 @@
+20:12:36.649 [main] INFO  testCases.AroundCognizant - **** Starting of TestCases for Around Cognizant ****
+20:12:36.657 [main] INFO  testCases.AroundCognizant - ** Captured user info **
+20:12:36.769 [main] INFO  testCases.AroundCognizant - Waiting for loading My Profile iocn
+20:12:45.120 [main] INFO  testCases.AroundCognizant - Click on My Profile button
+20:12:53.657 [main] INFO  testCases.AroundCognizant - Printing User Info on console
+20:12:53.687 [main] INFO  testCases.AroundCognizant - ** Verifying presence of Around Cognizant section **
+20:12:53.688 [main] INFO  testCases.AroundCognizant - Checking if Around Cognizant is visible
+20:12:53.740 [main] INFO  testCases.AroundCognizant - ** Presence of Around Cognizant section is verified **
+20:12:53.748 [main] INFO  testCases.AroundCognizant - ** Start verifying News in NewsSection by tooltip **
+20:12:53.750 [main] INFO  testCases.AroundCognizant - Scrolling Window by 650 pixel to get News
+20:12:54.508 [main] INFO  testCases.AroundCognizant - Making a list of news
+20:12:54.509 [main] INFO  testCases.AroundCognizant - Start verifying News by their tooltip
+20:12:55.398 [main] INFO  testCases.AroundCognizant - ** News section is verified with tooltip **
+20:12:55.403 [main] INFO  testCases.AroundCognizant - ** Start verifying seeAll button **
+20:12:55.403 [main] INFO  testCases.AroundCognizant - Check if seeAll is enabled
+20:12:55.446 [main] INFO  testCases.AroundCognizant - ** seeAll button is enabled **
+20:12:55.596 [main] INFO  testCases.AroundCognizant - ** Clicked on see All button **
+20:12:55.609 [main] INFO  testCases.AroundCognizant - ** Checking if Heanding is visible after clicking **
+20:13:00.993 [main] INFO  testCases.AroundCognizant - ** Heading is visible **
+20:13:01.000 [main] INFO  testCases.AroundCognizant - ** Start verifying News in Newspage **
+20:13:01.001 [main] INFO  testCases.AroundCognizant - navigating back to collect data for validation
+20:13:05.822 [main] INFO  testCases.AroundCognizant - navigating forward
+20:13:05.835 [main] INFO  testCases.AroundCognizant - Switching driver back to News page
+20:13:06.983 [main] INFO  testCases.AroundCognizant - Making a list from News page
+20:13:06.983 [main] INFO  testCases.AroundCognizant - Verifying news heading with their tooltip
+20:13:07.260 [main] INFO  testCases.AroundCognizant - ** Start printing all full details of news on console  **
+20:13:30.777 [main] INFO  testCases.AroundCognizant - ** All details of news printed on console **
+20:13:30.777 [main] INFO  testCases.AroundCognizant - **** Ending of TestCases for Around Cognizant ****
